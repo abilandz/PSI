@@ -1,2 +1,1 @@
-# PSI
-PSI Seminar
+# PSI Seminar
