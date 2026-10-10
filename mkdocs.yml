@@ -42,6 +42,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list # to resize figures
   - md_in_html # to resize figures
+  - toc:
+      title: "Speakers:"
 
 extra_javascript:
   - javascripts/mathjax.js
