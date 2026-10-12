@@ -2,8 +2,8 @@
 
 
 | Semester |      |
-| -------- | :--- |  
-| **WS 2026/27** | <span style="color: red;">TBI</span>, Ante Bilandzic |
+| -------- | :--- |
+| **WS 2026/27** | Lena Kirchner, Ante Bilandzic |
 | **SS 2026** | Sergei Golenev, Ante Bilandzic |
 | **WS 2025/26** | Wioleta Rzesa, Henrik Fribert |
 | **SS 2025** | Daniel Battistini, Berkin Ulukutlu |
