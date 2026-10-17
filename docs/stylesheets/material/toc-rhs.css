@@ -1,0 +1,27 @@
+/* Here I implemented or custom settings for Table of contents on the RHS, in the "Material" */
+
+/* Wider ToC sidebar on the RHS + lines are not wrapped up + overflow is shown, instead of using elipsis "..." */
+.md-sidebar--secondary {
+  width:13.44rem;                 /* keep your preferred width */
+  overflow: visible !important;
+}
+
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+  overflow: visible !important;
+}
+
+/* Kill the ellipsis and allow full text to show */
+.md-sidebar--secondary .md-ellipsis {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  display: inline !important;   /* or block, both work */
+}
+
+/* Make sure the link itself doesn’t constrain the text */
+.md-sidebar--secondary .md-nav__link {
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+/* ----------------------------------------------------------- */

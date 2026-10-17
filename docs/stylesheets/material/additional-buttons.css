@@ -1,0 +1,17 @@
+/* Move the color-palette toggle to the right of the search button, and further fine-tune its position */
+.md-header__inner {
+  display: flex;
+}
+
+.md-header__option[data-md-component="palette"] {
+  order: 1;          /* after the search elements */
+}
+
+/* Optional: keep a little breathing room */
+.md-header__option[data-md-component="palette"] {
+  margin-inline-start: 0.0rem; /* not needed for the time being */
+}
+
+/* ----------------------------------------- */
+
+
