@@ -12,6 +12,7 @@ def on_config(config):
                 {"WS 2026/27": "src/WS_2026_2027.md"},
                 {"SS 2026": "src/SS_2026.md"},
                 {"WS 2025/26": "src/WS_2025_2026.md"},
+                {"SS 2025": "src/SS_2025.md"},
             ]},
             {"Organizers": "src/organizers.md"},
         ]
