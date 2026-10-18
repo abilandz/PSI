@@ -2,26 +2,43 @@
 
 /* Wider ToC sidebar on the RHS + lines are not wrapped up + overflow is shown, instead of using elipsis "..." */
 .md-sidebar--secondary {
-  width:13.44rem;                 /* keep your preferred width */
+  width:24.44rem; /* keep your preferred width */
   overflow: visible !important;
+  margin-right: -10.5rem !important; /* this moves the whole ToC to the right */
+  padding-right: 0.3rem !important; /* small breathing room from the browser edge */
 }
 
 .md-sidebar--secondary .md-sidebar__scrollwrap {
   overflow: visible !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important; /* Remove the right padding that is causing early wrapping */
+}
+
+.md-sidebar--secondary .md-sidebar__inner {
+  padding-right: 0.0rem !important; /* very small breathing room */
 }
 
 /* Kill the ellipsis and allow full text to show */
 .md-sidebar--secondary .md-ellipsis {
-  white-space: nowrap !important;
+  max-width: 100% !important; /* wrapping starts here */
+  padding-right: 0.2rem !important;
+  white-space: normal !important;
   overflow: visible !important;
   text-overflow: unset !important;
-  display: inline !important;   /* or block, both work */
-}
+  display: block !important; /* or "inline", both work */
+  /* line-height: 1.4; */ /* here I can adjust the spacing between lines of ToC */ 
+} 
 
 /* Make sure the link itself doesn’t constrain the text */
 .md-sidebar--secondary .md-nav__link {
-  white-space: nowrap !important;
+  white-space: normal !important;
   overflow: visible !important;
 }
+
+/* optional – reduce internal padding of the ToC itself
+.md-sidebar--secondary .md-sidebar__inner {
+  padding-right: 0.6rem;
+}
+*/
 
 /* ----------------------------------------------------------- */
