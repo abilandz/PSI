@@ -32,6 +32,9 @@ theme:
 #nav:
 #  - Home: index.md
 
+extra:
+  homepage: # yes, leave it empty, this then defaults to docs/index.md
+
 # workaround to get figures via ./Figures, and not via ../Figures, even though the former is a correct relative path"
 use_directory_urls: false
 
